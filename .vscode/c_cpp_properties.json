@@ -3,16 +3,25 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "/Users/krmadhukar/Library/CloudStorage/OneDrive-HewlettPackardEnterprise/Madhukar/GitCode/dsa/**"
             ],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/usr/bin/clang++",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "macos-clang-arm64"
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "/Users/krmadhukar/Library/CloudStorage/OneDrive-HewlettPackardEnterprise/Madhukar/GitCode/dsa/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         },
         {
             "name": "Cpp",
